@@ -22,3 +22,20 @@ jobs:
           target: 'yc1/BadVault.sol'
           slither-args: '--exclude-low --exclude-informational'
           fail-on: high   
+      - name: Run Slither
+        run: |
+          slither . --json slither-report.json || true
+
+      - name: Fail on High Severity
+        run: |
+          if grep -q '"impact": "High"' slither-report.json; then
+            echo "High severity issues detected!"
+            exit 1
+          fi
+
+      - name: Upload Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: slither-report
+          path: slither-report.json
+  
