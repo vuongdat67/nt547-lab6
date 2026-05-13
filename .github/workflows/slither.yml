@@ -19,6 +19,6 @@ jobs:
         uses: crytic/slither-action@v0.3.0
         id: slither
         with:
-          target: 'BadVault.sol'
+          target: 'yc1/BadVault.sol'
           slither-args: '--exclude-low --exclude-informational'
-          fail-on: high   # Workflow FAIL nếu có lỗi Hig
+          fail-on: high   
