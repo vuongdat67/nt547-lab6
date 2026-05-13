@@ -1,0 +1,4 @@
+digraph "" {
+c103_GoodVault[shape="box"label=< <TABLE border="0"><TR><TD align="center"><B>GoodVault</B></TD></TR><TR><TD align="left"><I>Public Functions:</I></TD></TR><TR><TD align="left">    deposit()</TD></TR><TR><TD align="left">    withdraw()</TD></TR><TR><TD align="left">    getBalance()</TD></TR><TR><TD align="left"><I>Modifiers:</I></TD></TR><TR><TD align="left">    nonReentrant()</TD></TR><TR><TD align="left"><I>Public Variables:</I></TD></TR><TR><TD align="left">    balances</TD></TR><TR><TD align="left">    owner</TD></TR><TR><TD align="left"><I>Private Variables:</I></TD></TR><TR><TD align="left">    locked</TD></TR></TABLE> >];
+
+}

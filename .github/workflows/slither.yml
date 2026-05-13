@@ -1,0 +1,24 @@
+name: Slither Security Scan
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  slither:
+    name: Run Slither Analysis
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Slither
+        uses: crytic/slither-action@v0.3.0
+        id: slither
+        with:
+          target: 'BadVault.sol'
+          slither-args: '--exclude-low --exclude-informational'
+          fail-on: high   # Workflow FAIL nếu có lỗi Hig

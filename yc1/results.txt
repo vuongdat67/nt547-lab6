@@ -1,0 +1,197 @@
+\yc1> pip install -r .\requirements.txt
+Collecting slither-analyzer
+  Downloading slither_analyzer-0.11.5-py3-none-any.whl (752 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 752.1/752.1 kB 5.9 MB/s eta 0:00:00
+Collecting solc-select
+  Downloading solc_select-1.2.0-py3-none-any.whl (36 kB)
+Collecting crytic-compile<0.4.0,>=0.3.9
+  Downloading crytic_compile-0.3.11-py3-none-any.whl (99 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.2/99.2 kB ? eta 0:00:00
+Collecting eth-abi>=5.0.1
+  Downloading eth_abi-5.2.0-py3-none-any.whl (28 kB)
+Collecting eth-typing>=5.0.0
+  Downloading eth_typing-6.0.0-py3-none-any.whl (19 kB)
+Collecting eth-utils>=5.0.0
+  Downloading eth_utils-6.0.0-py3-none-any.whl (102 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.5/102.5 kB 6.1 MB/s eta 0:00:00
+Collecting packaging
+  Using cached packaging-26.2-py3-none-any.whl (100 kB)
+Collecting prettytable>=3.10.2
+  Downloading prettytable-3.17.0-py3-none-any.whl (34 kB)
+Collecting pycryptodome>=3.4.6
+  Downloading pycryptodome-3.23.0-cp37-abi3-win_amd64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 22.9 MB/s eta 0:00:00
+Collecting web3<8,>=7.10
+  Downloading web3-7.16.0-py3-none-any.whl (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 29.6 MB/s eta 0:00:00
+Collecting requests>=2.32.4
+  Downloading requests-2.34.0-py3-none-any.whl (73 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.0/73.0 kB ? eta 0:00:00
+Collecting cbor2
+  Downloading cbor2-6.1.0-cp311-cp311-win_amd64.whl (300 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 300.4/300.4 kB ? eta 0:00:00
+Collecting parsimonious<0.11.0,>=0.10.0
+  Downloading parsimonious-0.10.0-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.4/48.4 kB ? eta 0:00:00
+Collecting typing_extensions>=4.5.0
+  Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Collecting eth-hash>=0.3.1
+  Downloading eth_hash-0.8.0-py3-none-any.whl (8.0 kB)
+Collecting cytoolz>=0.10.1
+  Downloading cytoolz-1.1.0-cp311-cp311-win_amd64.whl (945 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 945.8/945.8 kB 58.5 MB/s eta 0:00:00
+Collecting pydantic<3,>=2.0.0
+  Downloading pydantic-2.13.4-py3-none-any.whl (472 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 472.3/472.3 kB ? eta 0:00:00
+Collecting wcwidth
+  Downloading wcwidth-0.7.0-py3-none-any.whl (110 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 110.8/110.8 kB ? eta 0:00:00
+Collecting charset_normalizer<4,>=2
+  Using cached charset_normalizer-3.4.7-cp311-cp311-win_amd64.whl (159 kB)
+Collecting idna<4,>=2.5
+  Downloading idna-3.15-py3-none-any.whl (72 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.3/72.3 kB 3.9 MB/s eta 0:00:00
+Collecting urllib3<3,>=1.26
+  Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.1/131.1 kB 8.1 MB/s eta 0:00:00
+Collecting certifi>=2023.5.7
+  Using cached certifi-2026.4.22-py3-none-any.whl (135 kB)
+Collecting eth-account>=0.13.6
+  Downloading eth_account-0.13.7-py3-none-any.whl (587 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 587.5/587.5 kB ? eta 0:00:00
+Collecting hexbytes>=1.2.0
+  Downloading hexbytes-1.3.1-py3-none-any.whl (5.1 kB)
+Collecting aiohttp>=3.7.4.post0
+  Downloading aiohttp-3.13.5-cp311-cp311-win_amd64.whl (462 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 462.9/462.9 kB 30.2 MB/s eta 0:00:00
+Collecting pywin32>=223
+  Downloading pywin32-311-cp311-cp311-win_amd64.whl (9.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.5/9.5 MB 35.7 MB/s eta 0:00:00
+Collecting types-requests>=2.0.0
+  Downloading types_requests-2.33.0.20260508-py3-none-any.whl (20 kB)
+Collecting websockets<16.0.0,>=10.0.0
+  Downloading websockets-15.0.1-cp311-cp311-win_amd64.whl (176 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 176.8/176.8 kB ? eta 0:00:00
+Collecting pyunormalize>=15.0.0
+  Downloading pyunormalize-17.0.0-py3-none-any.whl (51 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 51.4/51.4 kB ? eta 0:00:00
+Collecting aiohappyeyeballs>=2.5.0
+  Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Collecting aiosignal>=1.4.0
+  Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Collecting attrs>=17.3.0
+  Using cached attrs-26.1.0-py3-none-any.whl (67 kB)
+Collecting frozenlist>=1.1.1
+  Downloading frozenlist-1.8.0-cp311-cp311-win_amd64.whl (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.1/44.1 kB 2.1 MB/s eta 0:00:00
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-6.7.1-cp311-cp311-win_amd64.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.0/46.0 kB ? eta 0:00:00
+Collecting propcache>=0.2.0
+  Downloading propcache-0.5.2-cp311-cp311-win_amd64.whl (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.1/42.1 kB ? eta 0:00:00
+Collecting yarl<2.0,>=1.17.0
+  Downloading yarl-1.23.0-cp311-cp311-win_amd64.whl (87 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 4.8 MB/s eta 0:00:00
+Collecting toolz>=0.8.0
+  Downloading toolz-1.1.0-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.1/58.1 kB 3.0 MB/s eta 0:00:00
+Collecting bitarray>=2.4.0
+  Downloading bitarray-3.8.1-cp311-cp311-win_amd64.whl (150 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 150.1/150.1 kB ? eta 0:00:00
+Collecting eth-abi>=5.0.1
+  Downloading eth_abi-6.0.0b1-py3-none-any.whl (28 kB)
+Collecting eth-keyfile<0.9.0,>=0.7.0
+  Downloading eth_keyfile-0.8.1-py3-none-any.whl (7.5 kB)
+Collecting eth-keys>=0.4.0
+  Downloading eth_keys-0.7.0-py3-none-any.whl (20 kB)
+Collecting eth-rlp>=2.1.0
+  Downloading eth_rlp-2.2.0-py3-none-any.whl (4.4 kB)
+Collecting rlp>=1.0.0
+  Downloading rlp-4.1.0-py3-none-any.whl (19 kB)
+Collecting ckzg>=2.0.0
+  Downloading ckzg-2.1.7-cp311-cp311-win_amd64.whl (99 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.8/99.8 kB ? eta 0:00:00
+Collecting regex>=2022.3.15
+  Downloading regex-2026.5.9-cp311-cp311-win_amd64.whl (278 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 278.4/278.4 kB 16.8 MB/s eta 0:00:00
+Collecting annotated-types>=0.6.0
+  Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.46.4
+  Downloading pydantic_core-2.46.4-cp311-cp311-win_amd64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 32.7 MB/s eta 0:00:00
+Collecting typing-inspection>=0.4.2
+  Using cached typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Installing collected packages: pywin32, ckzg, bitarray, websockets, wcwidth, urllib3, typing_extensions, toolz, regex, pyunormalize, pycryptodome, propcache, packaging, multidict, idna, hexbytes, frozenlist, eth-hash, charset_normalizer, certifi, cbor2, attrs, annotated-types, aiohappyeyeballs, yarl, typing-inspection, types-requests, requests, pydantic-core, prettytable, parsimonious, eth-typing, cytoolz, aiosignal, solc-select, pydantic, aiohttp, eth-utils, crytic-compile, rlp, eth-keys, eth-abi, eth-rlp, eth-keyfile, eth-account, web3, slither-analyzer
+Successfully installed aiohappyeyeballs-2.6.1 aiohttp-3.13.5 aiosignal-1.4.0 annotated-types-0.7.0 attrs-26.1.0 bitarray-3.8.1 cbor2-6.1.0 certifi-2026.4.22 charset_normalizer-3.4.7 ckzg-2.1.7 crytic-compile-0.3.11 cytoolz-1.1.0 eth-abi-5.2.0 eth-account-0.13.7 eth-hash-0.8.0 eth-keyfile-0.8.1 eth-keys-0.7.0 eth-rlp-2.2.0 eth-typing-6.0.0 eth-utils-6.0.0 frozenlist-1.8.0 hexbytes-1.3.1 idna-3.15 multidict-6.7.1 packaging-26.2 parsimonious-0.10.0 prettytable-3.17.0 propcache-0.5.2 pycryptodome-3.23.0 pydantic-2.13.4 pydantic-core-2.46.4 pyunormalize-17.0.0 pywin32-311 regex-2026.5.9 requests-2.34.0 rlp-4.1.0 slither-analyzer-0.11.5 solc-select-1.2.0 toolz-1.1.0 types-requests-2.33.0.20260508 typing-inspection-0.4.2 typing_extensions-4.15.0 urllib3-2.7.0 wcwidth-0.7.0 web3-7.16.0 websockets-15.0.1 yarl-1.23.0
+
+[notice] A new release of pip available: 22.3 -> 26.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+\yc1> solc-select install 0.8.0
+Installing solc '0.8.0'...
+Version '0.8.0' installed.
+\yc1> solc-select use 0.8.0    
+Switched global version to 0.8.0
+\yc1> slither BadVault.sol 
+'solc --version' running
+'solc BadVault.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes,compact-format --allow-paths .,D:\blockchain\Lab06_NT547_23520281\code\yc1' running
+Compilation warnings/errors on BadVault.sol:
+Warning: This declaration shadows a builtin symbol.
+  --> BadVault.sol:22:5:
+   |
+22 |     function suicide() public {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused local variable.
+  --> BadVault.sol:18:10:
+   |
+18 |         (bool success, ) = msg.sender.call{value: amount}(""); // Lỗi: Unchecked return value (nếu version cũ) & Reentrancy
+   |          ^^^^^^^^^^^^
+
+
+INFO:Detectors:
+Detector: reentrancy-eth
+Reentrancy in BadVault.withdraw() (BadVault.sol#16-20):
+        External calls:
+        - (success,None) = msg.sender.call{value: amount}() (BadVault.sol#18)
+        State variables written after the call(s):
+        - balances[msg.sender] = 0 (BadVault.sol#19)
+        BadVault.balances (BadVault.sol#5) can be used in cross function reentrancies:
+        - BadVault.balances (BadVault.sol#5)
+        - BadVault.deposit() (BadVault.sol#12-14)
+        - BadVault.withdraw() (BadVault.sol#16-20)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+INFO:Detectors:
+Detector: suicidal
+BadVault.suicide() (BadVault.sol#22-24) allows anyone to destruct the contract
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#suicidal
+INFO:Detectors:
+Detector: shadowing-builtin
+BadVault.suicide() (BadVault.sol#22-24) (function) shadows built-in symbol"
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#builtin-symbol-shadowing
+INFO:Detectors:
+Detector: solc-version
+Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
+        - MissingSideEffectsOnSelectorAccess
+        - AbiReencodingHeadOverflowWithStaticArrayCleanup
+        - DirtyBytesArrayToStorage
+        - DataLocationChangeInInternalOverride
+        - NestedCalldataArrayAbiReencodingSizeValidation
+        - SignedImmutables
+        - ABIDecodeTwoDimensionalArrayMemory
+        - KeccakCaching.
+It is used by:
+        - ^0.8.0 (BadVault.sol#2)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+INFO:Detectors:
+Detector: low-level-calls
+Low level call in BadVault.withdraw() (BadVault.sol#16-20):
+        - (success,None) = msg.sender.call{value: amount}() (BadVault.sol#18)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
+INFO:Detectors:
+Detector: immutable-states
+BadVault.owner (BadVault.sol#6) should be immutable 
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-immutable
+INFO:Slither:BadVault.sol analyzed (1 contracts with 101 detectors), 6 result(s) found
+\yc1>
